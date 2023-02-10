@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote</title>
+    <style>
+        .button {
+        background-color: #2e1b09; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Melhores carros</h1>
+   
+    <p>Para você o melhor modelo de carro é <span id="text"></span></p>
+    <button onclick="opcao01()" class="button">JDM</button>
+    <button onclick="opcao02()" class="button">Alemão</button>
+    <button onclick="opcao03()" class="button">Americano</button>
+    <p>JDM tem <span id="qtjdm"></span> votos.</p>
+    <p>Alemão tem <span id="qtale"></span> votos.</p>
+    <p>Americano tem <span id="qtusa"></span> votos.</p>
+    <p><span id="resul"></span> pessoas votaram.</p>
+    <script src="votacao.js"></script>
+</body>
+</html>
